@@ -31,10 +31,16 @@ pip install -r requirements.txt
 ```
 
 
-### Google Chrome and Chromdriver
+### Google Chrome and Chromedriver
 
 - Make sure you have Google Chrome in your system
 - ChromeDriver download can be found [here](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 - Download the version associated with the version of Chrome you’re using
   - To find which version you’re using, go to to the three dots at the top right corner of the Chrome browser, go to “**Help**” then “**About Google Chrome**”
 - After downloading, extract the chomedriver and move it into the scrape_tutorial folder
+
+
+## Executing script
+
+All the necessary tools should now be downloaded. Run “python scrape_chatham.py” on your command prompt/terminal under the scrape_tutorial directory. It should first do only 5 entries. Once you confirm that it works for those 5 entries go to parid_helpers.py and replace ‘test.txt’ with ‘parcel_ids.txt”. The script should now run for the rest of the parcel ID’s.
+
