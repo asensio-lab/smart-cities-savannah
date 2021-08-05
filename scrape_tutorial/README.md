@@ -1,5 +1,9 @@
 # Chatham County Assessor Database Scraping
 
+This is a Python script that scrapes assessed, appraised, and tax values on the [Chatham County Assessor Database](https://www.chathamtax.org/PT/search/commonsearch.aspx?mode=realprop) on the parcel ID level.
+
+
+
 ## Description
 
 ## Set Up
