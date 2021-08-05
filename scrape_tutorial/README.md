@@ -12,7 +12,7 @@
   - This information can be found by going Settings, System, and then About
 - **Mac users**: download “macOS 64-bit Intel installer” (make sure you’re running on macOS 10.9 and later)
 - When you begin installing Python, on the opening screen, make sure to check off “**Add Python 3.9 to PATH**”. Then go ahead and install.
-- You can check to make sure you have Python with the correct version by going to your command prompt/terminal and typing “python --version”
+- You can check to make sure you have Python with the correct version by going to your command prompt/terminal and doing the following command:
 ```
 python --verson
 ```
