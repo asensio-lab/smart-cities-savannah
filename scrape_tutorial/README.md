@@ -6,6 +6,8 @@ This is a Python script that scrapes assessed, appraised, and tax values on the 
 
 ## Description
 
+
+
 ## Set Up
 
 ### Installing Python
@@ -44,6 +46,8 @@ pip install -r requirements.txt
 - After downloading, extract the chomedriver and move it into the scrape_tutorial folder
 
 
+
+
 ## Editing the code for Windows users
 
 - Open "**selenium_helpers.py**" and uncomment the following block
@@ -60,6 +64,8 @@ appraised_directory = 'appraised_values\\'
 ```
 
 
+
+
 ## Editing the code for Mac users
 
 - Open "**selenium_helpers.py**" and uncomment the following block
@@ -73,6 +79,8 @@ tax_directory = 'tax/'
 assessed_directory = 'assessed_values/'
 appraised_directory = 'appraised_values/'
 ```
+
+
 
 
 ## Executing script
