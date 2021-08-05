@@ -40,11 +40,12 @@ pip install -r requirements.txt
 - After downloading, extract the chomedriver and move it into the scrape_tutorial folder
 
 
+
 ## Executing script
 
 All the necessary tools should now be downloaded. Run “**python scrape_chatham.py**” on your command prompt/terminal under the scrape_tutorial directory. For example:
 ```
 C:\Users\edwardchen\smart_cities_savannah\scrape_tutorial> python scrape_tutorial.py
 ```
-Once you confirm that it works for those 5 entries go to parid_helpers.py and replace ‘test.txt’ with ‘parcel_ids.txt”. The script should now run for the rest of the parcel ID’s.
+Once you confirm that it works for those 5 entries and want to run it on the rest of the parcel ID's, go to parid_helpers.py and replace ‘test.txt’ with ‘parcel_ids.txt”. The script should now run for the rest of the parcel ID’s.
 
