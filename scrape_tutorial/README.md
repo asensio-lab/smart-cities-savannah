@@ -42,5 +42,9 @@ pip install -r requirements.txt
 
 ## Executing script
 
-All the necessary tools should now be downloaded. Run “python scrape_chatham.py” on your command prompt/terminal under the scrape_tutorial directory. It should first do only 5 entries. Once you confirm that it works for those 5 entries go to parid_helpers.py and replace ‘test.txt’ with ‘parcel_ids.txt”. The script should now run for the rest of the parcel ID’s.
+All the necessary tools should now be downloaded. Run “**python scrape_chatham.py**” on your command prompt/terminal under the scrape_tutorial directory. For example:
+```
+C:\Users\edwardchen\smart_cities_savannah\scrape_tutorial> python scrape_tutorial.py
+```
+Once you confirm that it works for those 5 entries go to parid_helpers.py and replace ‘test.txt’ with ‘parcel_ids.txt”. The script should now run for the rest of the parcel ID’s.
 
