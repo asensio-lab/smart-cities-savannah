@@ -1,5 +1,5 @@
 # Chatham County Assessor Database Scraping
 
-# Description
+## Description
 
-* Set Up
+## Set Up
