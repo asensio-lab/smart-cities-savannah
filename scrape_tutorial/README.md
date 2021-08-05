@@ -6,7 +6,7 @@
 
 ### Installing Python
 
-- If you do not have a verion of Python3 installed, download can be found at the link here: https://www.python.org/downloads/release/python-396/
+- If you do not have a verion of Python3 installed, download can be found at the link [here](https://www.python.org/downloads/release/python-396/)
 - **Windows users**:
   - Download the version according to your system type (whether it's 64-bit or 32-bit)
   - This information can be found by going Settings, System, and then About
@@ -29,3 +29,12 @@ python --verson
 ```
 pip install -r requirements.txt
 ```
+
+
+### Google Chrome and Chromdriver
+
+- Make sure you have Google Chrome in your system
+- ChromeDriver download can be found [here](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+- Download the version associated with the version of Chrome you’re using
+  - To find which version you’re using, go to to the three dots at the top right corner of the Chrome browser, go to “**Help**” then “**About Google Chrome**”
+- After downloading, extract the chomedriver and move it into the scrape_tutorial folder
