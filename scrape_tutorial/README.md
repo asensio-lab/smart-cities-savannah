@@ -17,10 +17,15 @@
 python --verson
 ```
 
-### Other important libraries
+
+### Installing libraries
 
 - From your command prompt/terminal, change the directory so that it is pointing to the scrape_tutorial folder
   - To change directory, type "cd" followed by the path that leads to the folder. For example:
   ```
   C:\Users\edwardchen>cd smart_cities_savannah\scrape_tutorial
   ```
+- After changing directories, perform the following command:
+```
+pip install -r requirements.txt
+```
