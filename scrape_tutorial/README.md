@@ -6,7 +6,7 @@
 
 ### Installing Python
 
-- If you do not have a verion of Python3 installed, download can be found at the link [here](https://www.python.org/downloads/release/python-396/)
+- If you do not have a verion of Python3 installed, download can be found [here](https://www.python.org/downloads/release/python-396/)
 - **Windows users**:
   - Download the version according to your system type (whether it's 64-bit or 32-bit)
   - This information can be found by going Settings, System, and then About
