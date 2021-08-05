@@ -38,7 +38,7 @@ pip install -r requirements.txt
 ### Google Chrome and Chromedriver
 
 - Make sure you have Google Chrome in your system
-- ChromeDriver download can be found [here](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+- Chromedriver download can be found [here](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 - Download the version associated with the version of Chrome you’re using
   - To find which version you’re using, go to to the three dots at the top right corner of the Chrome browser, go to “**Help**” then “**About Google Chrome**”
 - After downloading, extract the chomedriver and move it into the scrape_tutorial folder
