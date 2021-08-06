@@ -6,7 +6,7 @@ This is a Python script that scrapes assessed, appraised, and tax values on the 
 
 ## Description
 
-  In order to automate the process of data collection for 
+  In order to automate the process of data collection for civic data analysis, we've created a Python script that utilizes BeautifulSoup and Selenium to scrape the Chatham County Assessor Database. Selenium is a framework often used to test web applications, as it can automate webpage interactions. With Selenium, we're able to create functions that can automatically navigate through the assessor database in order to find pages that fit our data needs. To scrape information on the webpage, we used BeautifulSoup, a Python library that is used to parse HTML and XML documents. In our case, we created functions with BeautifulSoup so that we could parse HTML content on the assessor database to get specific data we needed. Finally, with the use of pandas, a Python library used for data manipulation and analysis, we converted the data into individual dataframes that could be saved as csv files.
 
 
 
