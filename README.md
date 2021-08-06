@@ -51,6 +51,7 @@ pip install -r requirements.txt
   - Open Finder, click “⌘” + “Shift” + “G” and search for “/usr/local/”
   - Check if there is a “bin” folder. If not, create one
   - Move the “chromedriver.exe” file to the “/usr/local/bin” folder
+- Code has been tested to work with Google Chrome version 92 and 93
 
 
 
