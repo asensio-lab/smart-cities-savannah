@@ -8,6 +8,13 @@ This is a Python script that scrapes assessed, appraised, and tax values on the 
 
 
 
+
+
+
+
+
+
+
 ## Set Up
 
 ### Installing Python
