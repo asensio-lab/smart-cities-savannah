@@ -31,7 +31,7 @@ python --verson
 - From your command prompt/terminal, change the directory so that it is pointing to the scrape_tutorial folder
   - To change directory, type "cd" followed by the path that leads to the folder. For example:
   ```
-  C:\Users\edwardchen>cd smart_cities_savannah\scrape_tutorial
+  C:\Users\name>cd smart_cities_savannah\scrape_tutorial
   ```
 - After changing directories, perform the following command:
 ```
@@ -94,7 +94,7 @@ appraised_directory = 'appraised_values/'
 
 All the necessary tools should now be downloaded. Run “**python scrape_chatham.py**” on your command prompt/terminal under the scrape_tutorial directory. For example:
 ```
-C:\Users\edwardchen\smart_cities_savannah\scrape_tutorial> python scrape_chatham.py
+C:\Users\name\smart_cities_savannah\scrape_tutorial> python scrape_chatham.py
 ```
 Once you confirm that it works for those 5 entries and want to run it on the rest of the parcel ID's, go to **parid_helpers.py** and replace ‘**test.txt**’ with ‘**parcel_ids.txt**”. The script should now run for the rest of the parcel ID’s.
 
