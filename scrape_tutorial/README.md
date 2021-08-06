@@ -6,12 +6,7 @@ This is a Python script that scrapes assessed, appraised, and tax values on the 
 
 ## Description
 
-
-
-
-
-
-
+  In order to automate the process of data collection for 
 
 
 
