@@ -43,7 +43,12 @@ pip install -r requirements.txt
 - Chromedriver download can be found [here](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 - Download the version associated with the version of Chrome you’re using
   - To find which version you’re using, go to to the three dots at the top right corner of the Chrome browser, go to “**Help**” then “**About Google Chrome**”
-- After downloading, extract the chomedriver and move it into the scrape_tutorial folder
+- After downloading, extract the chomedriver
+- For **Windows users**: After extracting the chromdriver, move the "chromedriver.exe" file into the scrape_tutorial folder
+- For **Mac users**:
+  - Open Finder, click “⌘” + “Shift” + “G” and search for “/usr/local/”
+  - Check if there is a “bin” folder. If not, create one
+  - Move the “chromedriver.exe” file to the “/usr/local/bin” folder
 
 
 
