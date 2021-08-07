@@ -14,7 +14,7 @@ This is a Python script that scrapes assessed, appraised, and tax values on the 
 
 - The main program being run, "**scrape_chatham.py**", uses three other sets of helper functions: "**selenium_helpers.py**", "**bs4_helpers.py**", and "**parid_helpers.py**"
 - Code has been tested using **Selenium 4.0. 0 Alpha 5**, **Beautifulsoup v4.9.3**, and **pandas v1.3.1**
-- Chromedriver has been tested with Google Chrome version 92 and 93
+- Chromedriver has been tested with **Google Chrome** version **92** and **93**
 
 
 
@@ -43,7 +43,7 @@ python --verson
   ```
 - After changing directories, perform the following command:
 ```
-pip install -r requirements.txt
+C:\Users\name\smart_cities_savannah\scrape_tutorial> pip install -r requirements.txt
 ```
 
 
