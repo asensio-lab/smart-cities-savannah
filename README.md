@@ -10,6 +10,14 @@ This is a Python script that scrapes assessed, appraised, and tax values on the 
 
 
 
+## Dependencies
+
+- The main program being run, "**scrape_chatham.py**", uses three other sets of helper functions: "**selenium_helpers.py**", "**bs4_helpers.py**", and "**parid_helpers.py**"
+- Code has been tested using **Selenium 4.0. 0 Alpha 5**, **Beautifulsoup v4.9.3**, and **pandas v1.3.1**
+- Chromedriver has been tested with Google Chrome version 92 and 93
+
+
+
 ## Set Up
 
 ### Installing Python
@@ -51,7 +59,6 @@ pip install -r requirements.txt
   - Open Finder, click “⌘” + “Shift” + “G” and search for “/usr/local/”
   - Check if there is a “bin” folder. If not, create one
   - Move the “chromedriver.exe” file to the “/usr/local/bin” folder
-- Code has been tested to work with Google Chrome version 92 and 93
 
 
 
@@ -98,5 +105,3 @@ All the necessary tools should now be downloaded. Run “**python scrape_chatham
 C:\Users\name\smart_cities_savannah\scrape_tutorial> python scrape_chatham.py
 ```
 Once you confirm that it works for those 5 entries and want to run it on the rest of the parcel ID's, go to **parid_helpers.py** and replace ‘**test.txt**’ with ‘**parcel_ids.txt**”. The script should now run for the rest of the parcel ID’s.
-
-
