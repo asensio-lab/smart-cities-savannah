@@ -10,6 +10,7 @@ import pandas as pd
 tax_directory = 'tax\\'
 assessed_directory = 'assessed_values\\'
 appraised_directory = 'appraised_values\\'
+sales_directory = 'sales\\'
 '''
 
 
@@ -18,6 +19,7 @@ appraised_directory = 'appraised_values\\'
 tax_directory = 'tax/'
 assessed_directory = 'assessed_values/'
 appraised_directory = 'appraised_values/'
+sales_directory = 'sales_values/'
 '''
 
 # Extract information formatted as a table
@@ -58,3 +60,12 @@ def extract_tax(parid, page_source):
     tax_values = extract_table(tax_table)      
     df = pd.DataFrame(tax_values[1:], columns = tax_values[0])
     df.to_csv('%s%s.csv'%(tax_directory, parid))
+    
+    
+# Scrape sales history and save as a CSV
+def extract_sales(parid, page_source):
+    soup = BeautifulSoup(page_source, 'html.parser')
+    sales_table = soup.find(id='Sales')
+    sales_values = extract_table(sales_table)
+    df = pd.DataFrame(sales_values[1:], columns = sales_values[0])
+    df.to_csv('%s%s.csv'%(sales_directory, parid))
