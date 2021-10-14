@@ -51,9 +51,16 @@ def scrape_assessed(parid):
     bs4_helpers.extract_assessed(parid, driver.page_source)
 
     
+# Uses bs4 function to obtain sales history
+def scrape_sales(parid):
+    value = driver.find_element_by_xpath("//ul[@class='navigation']/li[5]")
+    value.click()
+    bs4_helpers.extract_sales(parid, driver.page_source)
+    
+    
 # go back to original starting page
 def walk_back():
-    for _ in range(4):
+    for _ in range(5):
         driver.back()
     
     
