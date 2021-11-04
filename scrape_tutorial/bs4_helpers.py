@@ -19,7 +19,7 @@ sales_directory = 'sales\\'
 tax_directory = 'tax/'
 assessed_directory = 'assessed_values/'
 appraised_directory = 'appraised_values/'
-sales_directory = 'sales_values/'
+sales_directory = 'sales/'
 '''
 
 # Extract information formatted as a table
