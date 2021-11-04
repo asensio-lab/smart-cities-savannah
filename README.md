@@ -76,6 +76,7 @@ driver = webdriver.Chrome(directory)
 tax_directory = 'tax\\'
 assessed_directory = 'assessed_values\\'
 appraised_directory = 'appraised_values\\'
+sales_directory = 'sales\\'
 ```
 
 
@@ -93,6 +94,7 @@ driver = webdriver.Chrome()
 tax_directory = 'tax/'
 assessed_directory = 'assessed_values/'
 appraised_directory = 'appraised_values/'
+sales_directory = 'sales/'
 ```
 
 
