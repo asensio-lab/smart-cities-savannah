@@ -106,4 +106,6 @@ All the necessary tools should now be downloaded. Run “**python scrape_chatham
 ```
 C:\Users\name\smart_cities_savannah\scrape_tutorial> python scrape_chatham.py
 ```
+* Note for Mac users: it might be possible that the following command may not work. If so, replace "python" with "python3"
+
 Once you confirm that it works for those 5 entries and want to run it on the rest of the parcel ID's, go to **parid_helpers.py** and replace ‘**test.txt**’ with ‘**parcel_ids.txt**”. The script should now run for the rest of the parcel ID’s.
